@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Instituto Salesiano San Miguel</title>
+    <link rel="icon" href="./Instituto/imagenes/logocole.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="./css/plantilla.css" /> 
+    <link rel="stylesheet" href="./css/slider_panel.css" />
+    <link rel="stylesheet" href="./css/cards.css" />
+  
+    <script type="text/javascript" src="./js/nav.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">
+            <a href="./index.html"><img src="./Instituto/imagenes/logocole.jpg" alt="Logo" /></a>
+        </div>
+        <nav>
+            <ul class="nav-link">
+                <li>
+                    <a href="./html/acercade.html">Acerca de</a>
+                    <ul class="submenu">
+                        <li><a href="./html/quienessomos.html">¿Quiénes Somos?</a></li>
+                        <li><a href="./html/valores.html">Valores</a></li>
+                        <li> <a href="./html/galeria.html">Galería</a></li>
+                    </ul>
+                </li>
+                <li><a href="./html/propuestas.html">Propuestas</a></li>
+                <li><a href="./html/biblioteca.html">Biblioteca</a></li>
+                <li><a href="./html/noticias.html">Noticias</a></li>
+                <li><a href="./html/admisiones.html">Admisiones</a></li>
+            </ul>
+        </nav>
+        <a href="./html/contacto.html" class="btn"><button>Contacto</button></a>
+
+        <a href="#" onclick="openNav()" class="menu"><button>Menu</button></a>
+
+        <div class="overlay" id="mobile-menu">
+            <a href="#" onclick="closeNav()" class="close">&times;</a>
+            <div class="overlay-content">
+                <a href="./html/acercade.html">Acerca de</a>
+                <a href="./html/quienessomos.html">¿Quiénes Somos?</a>
+                <a href="./html/valores.html">Valores</a>
+                <a href="./html/galeria.html">Galería</a>
+                <a href="./html/propuestas.html">Propuestas</a>
+                <a href="./html/biblioteca.html">Biblioteca</a>
+                <a href="./html/noticias.html">Noticias</a>
+                <a href="./html/admisiones.html">Admisiones</a>
+                <a href="./html/contacto.html">Contacto</a>
+            </div>
+        </div>
+    </header>
+    <main>
+
+        <section class="contenedor">
+            <div style="justify-content: center; background-color: #9AD0C2;" class="box_conteiner">
+                <h1 class="titulos">Bienvenido a Nuestra Escuela</h2>
+            </div>
+            <div style="background-color: #9AD0C2;" class="box_conteiner">
+                <div class="colum-box">
+                    <h2 class="titulo">Mision</h2>
+                    <p class="parrafo">
+                        Somos una comunidad de Salesianos de Don Bosco y Laicos comprometidos que nos 
+                        dedicamos a educar y evangelizar a los niños y jóvenes, preferentemente los menos 
+                        favorecidos y en riesgo, ofreciéndoles, con el método educativo de Don Bosco, una 
+                        amplia propuesta de servicios de calidad que los prepare a integrarse al mundo de la 
+                        cultura y el trabajo, y a ser miembros vivos de la sociedad hondureña y de la iglesia.
+                    </p>
+                </div>
+
+                <div class="colum-box">
+                    <h2 class="titulo">Vision</h2>
+                    <p class="parrafo">
+                        Soñamos ser la escuela mejor posesionada a nivel nacional, evidenciado por:
+                        Ubicarse en los primeros lugares del ranking de las universidades de Tegucigalpa por la óptima 
+                        preparación académica de nuestros bachilleres.
+                        Su participación propositiva en los eventos deportivos, culturales, musicales y científicos a los 
+                        que asiste.
+                        El alto nivel de organización y participación de colegios en la Semana de la Juventud y actividades 
+                        afines.
+                        La auténtica identificación de los estudiantes y agentes educativos con el PEPS y la 
+                        Espiritualidad Salesiana.
+                        Además… ofreciendo una variedad de servicios educativo-pastorales de calidad acorde a 
+                        los tiempos, apoyada en las nuevas tecnologías y con una clara opción por la educación bilingüe, en 
+                        un ambiente familiar, acogedor, solidario y cualificado, centrado en el niño/joven y que lo prepara 
+                        para la vida, y una vida en Cristo.
+                    </p>
+                </div>
+            </div>
+            <br>
+            <div class="slider-container">
+                <div class="container-carousel">
+                    <div class="carousel" id="slider">
+                        <section class="slider-section">
+                            <img src="./Instituto/imagenes/carucel001.jpg" alt="Referencia 1" />
+                        </section>
+                        <section class="slider-section">
+                            <img src="./Instituto/imagenes/carrucel0.jpg" alt="Referencia 2" />
+                        </section>
+                        <section class="slider-section">
+                            <img src="./Instituto/imagenes/ISSM-Valor1.jpg" alt="Referencia 3" />
+                        </section>
+                        <section class="slider-section">
+                            <img src="./Instituto/imagenes/carrucel.jpg" alt="Referencia 4" />
+                        </section>
+                        <section class="slider-section">
+                            <img src="./Instituto/imagenes/carrucel012.jpg" alt="Referencia 5" />
+                        </section>
+                    </div>
+                    <div class="btn-left">&lt;</div>
+                    <div class="btn-right">></div>
+                </div>
+            </div>
+            <script src="./js/carrusel.js"></script>
+            <h2 class="titulo">Noticias</h2>
+            <section class="card-container">
+                <section class="card">
+                    <div class="card-image">
+                        <img alt="Imágen de Tarjeta" src="./Instituto/imagenes/Preescolar.jpg" />
+                    </div>
+                    <h2 class="title">Pre-escolar</h2>
+                    <p class="parrafo">
+                        Nuestra institución cuenta con dos niveles en el área de PREBÁSICA, el primero de ellos 
+                        Kínder, niños de 4 años y el segundo Preparatoria, niños de 5 años. En ambos niveles 
+                        la educación es basada en el desarrollo integral de cada uno de nuestros estudiantes 
+                        donde el propósito central es descubrir las destrezas propias de esta etapa tomando en 
+                        consideración las siguientes áreas: Espiritual, Perceptual-motor, social-emocional y 
+                        conceptual.
+                        Contamos con una educación mixta donde la interacción de niñas y niños desarrollan en 
+                        ellos una excelente convivencia escolar y sus habilidades sociales se afianzan mucho más. 
+                        Con las diferentes actividades diarias se les Inculca y fomenta el amor a Dios a la 
+                        Santísima Virgen María Auxiliadora y a San Juan Bosco como nuestro maestro de la obra
+                         Salesiana.s.
+                    </p>
+                </section>
+
+                <section class="card">
+                    <div class="card-image">
+                        <img alt="Imágen de Tarjeta" src="./Instituto/imagenes/Primaria.jpg" />
+                    </div>
+                    <h2 class="title">Primaria</h2>
+                    <p class="parrafo">
+                        El área de PRIMARIA está conformada por el primer ciclo de 1ro a 3er grado y segundo ciclo de 4to a 6to grado.
+                        Nuestra propuesta educativa está basada en el sistema preventivo de Don Bosco buscando siempre una educación 
+                        integral para cada uno de nuestros estudiantes.
+                        Un día en la primaria es comenzar desde muy temprano con nuestros acostumbrados ‘buenos días’ donde ponemos 
+                        en las manos de Dios nuestras intenciones y actividades que realizaremos.
+                        Nuestro horario de clases está diseñado con una carga académica que busca en cada clase desarrollar a nivel 
+                        bilingüe los estándares de cada nivel, contamos con todos los recursos didácticos necesarios para afianzar 
+                        los conocimientos adquiridos en cada clases somos una instituciones vanguardista donde la tecnología va de la mano del aprendizaje
+                    </p>
+                </section>
+
+                <section class="card">
+                    <div class="card-image">
+                        <img alt="Imágen de Tarjeta" src="./Instituto/imagenes/secundaria.jpg" />
+                    </div>
+                    <h2 class="title">Secundaria</h2>
+                    <p class="parrafo">
+                        También se caracteriza por brindar una educación integral basada en principios y valores éticos, cívicos
+                         morales y religiosos, destacándose como uno de los mejores institutos del país, siendo reconocido a través 
+                         de su historia por su excelente disciplina y rendimiento académico, el cual permite a nuestros estudiantes 
+                         y jóvenes ser protagonistas en el proceso de su propia formación.
+                    </p>
+                </section>
+            </section>
+        </section>
+    </main>
+    <footer>
+        <section>
+            <p>Historia del Instituto Salesiano San Miguel <br></p>
+            <p>Tel. 2280-1014 <br></p>
+            <p>Whatsapp +5048835-8896<br></p>
+            <p>salesianosanmiguel@gmail.com <br></p>
+            <span>&copy; Todos los Derechos Reservados 2024 PW</span>
+        </section>
+    </footer>
+</body>
+
+</html>
